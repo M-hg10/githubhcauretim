@@ -86817,7 +86817,7 @@ case 2:return A.I(o.at(-1),r)}})
 return A.K($async$pF,r)},
 tD(){var s=0,r=A.L(t.H),q,p=2,o=[],n=[],m=this,l,k,j,i,h,g,f,e,d,c,b,a
 var $async$tD=A.H(function(a0,a1){if(a0===1){o.push(a1)
-s=p}while(true)switch(s){case 0:c="https://n8n.hggrup.com/webhook-test/71dddf28-b6c5-429a-ac12-ffecaea1f275"
+s=p}while(true)switch(s){case 0:c="https://n8n.hggrup.com/webhook/uploads"
 b=m.f
 if(b==null){m.c.ad(t.Pu).f.jE(B.T3)
 s=1
@@ -86827,7 +86827,6 @@ l=A.et(c)
 k=A.aMq("POST",l)
 k.x.m(0,"timestamp",new A.ch(Date.now(),0,!1).Jy())
 k.x.m(0,"uretimid",B.f.k(m.a.c.a))
-k.x.m(0,"uretimadi",m.a.c.b)
 if(m.f!=null){k.x.m(0,"filename","web_image_"+Date.now()+".jpg")
 b=k.y
 g=m.f
